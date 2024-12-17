@@ -1,0 +1,3 @@
+Slime 30 7
+MutantRat 50 5
+PoisonousFrog 40 8
