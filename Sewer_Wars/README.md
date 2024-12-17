@@ -1,11 +1,5 @@
-_________________________________________________________________________________
-#####  #####  #  #  #   #####   #####      #  #  #   #####   #####   #####
-#      #      #  #  #   #       #   #      #  #  #   #   #   #   #   #    
-#####  #####  #  #  #   #####   ####       #  #  #   #####   ####    #####
-   #   #      #  #  #   #       #   #      #  #  #   #   #   #   #       #
-#####  #####  #######   #####   #   #      #######   #   #   #   #   #####
-__________________________________________________________________________________
 
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
 **How to Play?**
 
 -When the program starts, you will have the options to start a new game or load a saved game. You can access old saves from the load game option. Once you enter the game, a menu will appear  where you can choose options by entering the corresponding number.
@@ -28,11 +22,10 @@ ________________________________________________________________________________
 
 -The "Save" option allows you to save your progress. It cannot be used during combat. It will also save any items you haven't collected from the rooms you have cleared.
 
-
-
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
 **GAME LOGIC**
 -In the game, you can interact with the environment by picking up and discarding items, as well as moving between rooms. Some items are usable. You can find trash and jewels around the environment. Trash items affect your final game score, while jewels do not contribute to the score.
-
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
 **CODE STRUCTURE**
 
 -game.exe: The compiled executable file of the game. This is the file you run to start the game.
@@ -71,6 +64,8 @@ monsterdata.txt: Similar to the other text files, this document likely contains 
 
 -SaveLoad.H: The header file related to saving and loading game progress. It likely contains function declarations for saving and loading game state, such as player data, room data, and inventory.
 
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
 **FILE STRUCTURE**
 /C_HW
 │
