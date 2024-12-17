@@ -35,6 +35,43 @@ ________________________________________________________________________________
 
 **CODE STRUCTURE**
 
+-game.exe: The compiled executable file of the game. This is the file you run to start the game.
+
+-Makefile: This file contains the instructions for building the project. It compiles the various C source files into the executable.
+
+
+   _C Source Files_
+-main.c: The main entry point of the game. This file initializes the game and contains the main game loop, which drives the gameplay.
+
+-Item.c: Contains code related to items in the game. This could include item creation, inventory management, and interaction with the player.
+
+-Monster.c: Defines the behavior of monsters within the game. This file likely includes functions for monster creation, movement, and interactions with the player or environment.
+
+-Player.c: Handles player-related functionalities, such as player stats, movement, and interaction with other game elements (e.g., items, monsters).
+
+-Room.c: Manages the different rooms or areas in the game. This could include the layout, room transitions, and environmental effects.
+
+-SaveLoad.c: This file likely handles saving and loading game progress, allowing players to resume their game later.
+
+   _Text Files_
+bossdata.txt: A text document that may contain information related to the game’s boss, such as stats, abilities, or other related data.
+
+itemdata.txt: This file likely stores data related to items in the game, such as item names, descriptions, and properties.
+
+monsterdata.txt: Similar to the other text files, this document likely contains data about monsters, such as their stats, names, or behavior.
+
+   _Header Files_
+-Item.H: This header file likely contains the declarations for functions and data structures related to items in the game, such as item attributes, creation, and interactions with the player.
+
+-Monster.H: The header file for the monster-related code, likely defining the monster structure, its properties (e.g., health, attack), and functions for managing monster behavior and interactions.
+
+-Player.H: This header contains the declarations for player-related functions and variables, such as player stats (health, score), movement, and interactions with other game elements like items and monsters.
+
+-Room.H: This header defines the functions and data structures for handling rooms in the game, including room layout, transitions, and interactions with objects within the room.
+
+-SaveLoad.H: The header file related to saving and loading game progress. It likely contains function declarations for saving and loading game state, such as player data, room data, and inventory.
+
+**FILE STRUCTURE**
 /C_HW
 │
 ├── src/                
